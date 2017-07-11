@@ -1,0 +1,86 @@
+/*layout is for styling for your overall structure of your page*/
+
+/*now for the grid!*/
+
+.row {
+  width: 100%;
+}
+
+/*rows and columns should have no margin, and box-sizing should be border-box (include padding and border in width)*/
+.row,
+.column {
+  box-sizing: border-box;
+}
+
+/*clear all the floats*/
+.row::before,
+.row::after {
+  content: "";
+  display: table;
+}
+
+.row::after {
+  clear: both;
+}
+
+/*Allow anything to be positioned relative to that column; float all columns to the left*/
+.column {
+  position: relative;
+  float: left;
+  padding: 1%;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  /*create 12 column classes*/
+  .col-1 {
+    width: 8.33%
+  }
+
+  .col-2 {
+    width: 16.66%
+  }
+
+  .col-3 {
+    width: 24.66%
+  }
+
+  .col-4 {
+    width: 33.33%
+  }
+
+  .col-5 {
+    width: 41.65%
+  }
+
+  .col-6 {
+    width: 50%
+  }
+
+  .col-7 {
+    width: 58.31%
+  }
+
+  .col-8 {
+    width: 66.64%
+  }
+
+  .col-9 {
+    width: 74.88%
+  }
+
+  .col-10 {
+    width: 83.3%
+  }
+
+  .col-11 {
+    width: 91.63%
+  }
+
+  .col-12 {
+    width: 100%
+  }
+}

@@ -2,6 +2,7 @@
 
 [![](https://img.shields.io/badge/YouTube-301d27-red.svg)](https://www.youtube.com/playlist?list=PLVngfM2hsbi-9qxRDzR3UxLtoGJhw04Nl)
 [![](https://img.shields.io/badge/canvas-301d27-blue.svg)](https://canvas.instructure.com/courses/1176875)
+[![](https://img.shields.io/badge/labs-301d27-yellow.svg)](https://github.com/codefellows-seattle-301d27)
 [![](https://img.shields.io/badge/slack-301d27-orange.svg)](https://codefellows.slack.com/messages/C5WHR2FNG/)
 
 Welcome to Code 301! This is a class that builds on your fundamental knowledge of HTML, CSS, JavaScript, Git, and general web development, to prepare you for the deep dive of any Code 401 class.

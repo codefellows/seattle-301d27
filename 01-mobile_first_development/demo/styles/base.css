@@ -1,0 +1,10 @@
+/*base is the default styling for your page. Generally, you don't style classes here - you're styling elements with element selectors*/
+
+body {
+  width: 100%;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}

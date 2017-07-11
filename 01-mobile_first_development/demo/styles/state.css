@@ -1,0 +1,16 @@
+/*state is styling for elements when they're in a certain state*/
+
+@media (min-width: 600px) {
+  #hamburger {
+    display: none;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav li {
+    display: inline-block;
+    border: 1px solid black;
+  }
+}
