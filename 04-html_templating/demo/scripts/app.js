@@ -41,11 +41,61 @@ email = email.replace(regex, 'dreew drew drew stephanie@codefellows.com la la la
 
 // template using regex and a function
 
-function lookup(match, propName){
-  console.log(match);
-  console.log(propName);
-  return tree[propName];
+// wrap as a function
+
+function compile(template, dataObj) {
+  var filledInTemplate = template.replace(/{{(\w+)}}/g, lookup);
+
+  function lookup(match, propName){
+    // console.log(match);
+    // console.log(propName);
+    return dataObj[propName];
+  }
+
+  // console.log(filledInTemplate);
+  return filledInTemplate;
 }
 
-var regexTemplate = myString.replace(/{{(\w+)}}/g, lookup)
-console.log(regexTemplate);
+// console.log(compile(myString, tree));
+
+// template via jQuery
+var jqueryTemplateString = $('#jQueryTemplate').html();
+// console.log(jqueryTemplateString);
+var templatedJQuery = compile(jqueryTemplateString, tree);
+$('#jqueryTemplatedTree').append(templatedJQuery);
+
+
+// template via handlebars
+var handlebarsTemplateString = $('#handlebarsTemplate').html();
+
+console.log(handlebarsTemplateString);
+var compiled = Handlebars.compile(handlebarsTemplateString);
+console.log(compiled);
+
+var html = compiled(tree);
+console.log(html)
+$('#handlebarsTemplatedTree').append(html);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// foo
