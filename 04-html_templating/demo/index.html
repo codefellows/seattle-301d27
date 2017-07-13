@@ -6,8 +6,31 @@
   </head>
   <body>
     <h1>Templating demo</h1>
-    
 
+    <!-- templating with jQuery -->
+    <div id="jqueryTemplatedTree"></div>
+    <script type="text/template" id="jQueryTemplate">
+      <div>
+        <h2>{{displayName}}</h2>
+        <h3>{{latinName}}; also known as {{otherCommonNames}}</h3>
+        <p>{{description}}</p>
+        <img src="../images/{{fileName}}.jpeg">
+      </div>
+    </script>
+
+    <!-- templating with handlebars -->
+    <div id="handlebarsTemplatedTree"></div>
+    <script type="text/x-handlebars-template" id="handlebarsTemplate">
+      <div>
+        <h2>{{displayName}}</h2>
+        <h3>{{latinName}}; also known as {{otherCommonNames}}</h3>
+        <p>{{description}}</p>
+        <img src="../images/{{fileName}}.jpeg">
+      </div>
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
     <script type="text/javascript" src="scripts/app.js"></script>
   </body>
 </html>
