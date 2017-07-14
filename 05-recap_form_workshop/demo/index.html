@@ -12,6 +12,39 @@
   </head>
   <body>
     <h1>It's Justin Time</h1>
+    <!-- make a form with title, date, category, mood, text, and author fields -->
+    <section>
+      <form id="entryForm" action="#">
+        <!-- <fieldset> -->
+          <legend>Justin Entry</legend>
+          <label>
+            Title
+            <!-- TODO: settle the argument about closing input tags once and for all -->
+            <input type="text" id="entryTitle" placeholder="Title">
+          </label>
+          <label>
+            Category
+            <input type="text" id="entryCategory" placeholder="Category">
+          </label>
+          <label>
+            Mood
+            <input type="text" id="entryMood" placeholder="Mood">
+          </label>
+          <label>
+            Author
+            <input type="text" id="entryAuthor" placeholder="Author">
+          </label>
+          <label>
+            Text
+            <textarea rows="10"  id="entryText"  placeholder="Text"></textarea>
+          </label>
+          <submit id="save">Save Entry</submit>
+        <!-- </fieldset> -->
+      </form>
+    </section>
+    <!-- stretch goal: save button -->
+    <section id="entryPreview">
+    </section>
     <section id="existingEntries">
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -26,18 +59,11 @@
 // be able to write about justin bieber - his hair, tattoos,
 // list of pictures of justin bieber
 
-// we need to hold:
-// author maybe?
-// diaries need dates
-// the text re: pining about justin bieber and justin timberlake
-// category
-// title
-// mood
+
 
 // array of justin quotes
+// sorting?
 
-sorting?
-old entries
 new entries
 
-data structure: list of entries -->
+ -->

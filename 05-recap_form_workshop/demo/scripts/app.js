@@ -38,13 +38,14 @@ function Entry (entryObject) {
   this.author = entryObject.author || 'Stephanie Lingwood';
 }
 
-Entry.prototype.templateAndDomify = function () {
+Entry.prototype.templateAndDomify = function (element) {
   var template = $('#entryTemplate').html();
   var compiled = Handlebars.compile(template);
-  $('#existingEntries').append(compiled(this));
+  $(element).append(compiled(this));
 };
 
 view.init = function () {
+  view.newEntry = new Entry({});
   // loop through array
   view.data.forEach(function (entry) {
     //  and feed the data to the constructor to make an Entry object
@@ -57,6 +58,41 @@ view.init = function () {
       author: entry.author,
     });
     // then call the templateAndDomify function for that object
-    existingEntry.templateAndDomify();
+    existingEntry.templateAndDomify('#existingEntries');
   });
 };
+
+view.showPreview = function (event) {
+  event.preventDefault();
+  $('#entryPreview').empty();
+  // do stuff
+  // retrieve the data from the form
+  view.newEntry.title = $('#entryTitle').val();
+  view.newEntry.date = (new Date()).toDateString();
+  view.newEntry.category = $('#entryCategory').val();
+  view.newEntry.mood = $('#entryMood').val();
+  view.newEntry.text = $('#entryText').val();
+  view.newEntry.author = $('#entryAuthor').val();
+  view.newEntry.templateAndDomify('#entryPreview');
+};
+
+view.saveEntry = function (event) {
+  event.preventDefault();
+
+  view.data.push(view.newEntry);
+  view.newEntry = new Entry({});
+  $('#entryPreview').empty();
+  $('#existingEntries').empty();
+  view.init();
+};
+
+$('#entryForm').on('change', view.showPreview);
+$('#save').on('click', view.saveEntry);
+
+// capture the inputted data, and render it to the preview area
+// stretch goal: save button to acutally add it to our data array
+
+// sidebar: example of templater literal
+// var foo = 'justin poster'
+// 'my string about a ' + foo
+// `hey look at my ${foo}!`
