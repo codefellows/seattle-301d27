@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>It's Justin Time</title>
+    <script type="text/x-handlebars-template" id="entryTemplate">
+      <h2>{{title}}</h2>
+      <h3>Written on {{date}} by {{author}}.</h3>
+      <h4>Category: {{category}} | Mood: {{mood}}</h4>
+      <p>{{text}}</p>
+    </script>
+  </head>
+  <body>
+    <h1>It's Justin Time</h1>
+    <section id="existingEntries">
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="scripts/app.js">
+    </script>
+    <script>view.init()</script>
+  </body>
+</html>
+<!--
+// we need to be able to write
+// be able to write about justin bieber - his hair, tattoos,
+// list of pictures of justin bieber
+
+// we need to hold:
+// author maybe?
+// diaries need dates
+// the text re: pining about justin bieber and justin timberlake
+// category
+// title
+// mood
+
+// array of justin quotes
+
+sorting?
+old entries
+new entries
+
+data structure: list of entries -->
