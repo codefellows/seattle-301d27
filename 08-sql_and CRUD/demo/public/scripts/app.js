@@ -20,14 +20,14 @@ $(document).ready(function () {
 })
 
 function getTrees() {
-  const path = 'scripts/trees.json';
+  const path = '/trees';
 console.log('in getTrees')
-  $.getJSON(path).then(
+  $.get(path).then(
     function (data) {
       console.log('success')
       state.trees = data;
       console.log(state.trees[0])
-      console.log(state.trees[0].displayName)
+      console.log(state.trees[0].displayname)
       setup();
     },
     function (err) {
@@ -43,7 +43,7 @@ $('#treeImages').on('click', 'img', function (event) {
   console.log($(this))
   var answer = $(this).data('name');
 console.log(answer)
-  if (answer === state.correctTree.displayName) {
+  if (answer === state.correctTree.displayname) {
     renderResponse('woohoo!');
   } else {
     renderResponse('wrong! virus alert.');
@@ -57,7 +57,7 @@ function generateRandomTree () {
 }
 
 function renderTreeName (tree) {
-  $('#treeName').text(tree.displayName);
+  $('#treeName').text(tree.displayname);
 }
 
 function renderTreeImage (tree, position) {
@@ -68,10 +68,10 @@ function renderTreeImage (tree, position) {
   } else {
     $img = $('#treeImages :nth-child(2)');
   }
-  $img.attr('src', 'images/' + tree.fileName + '.jpeg');
-  $img.data('name', tree.displayName);
+  $img.attr('src', 'images/' + tree.filename + '.jpeg');
+  $img.data('name', tree.displayname);
   // data ^^ is the same as doing it this way via the attribute:
-  // $img.attr('data-name', tree.displayName);
+  // $img.attr('data-name', tree.displayname);
 }
 
 function renderResponse (response) {
@@ -83,11 +83,11 @@ function populateCheatDropdown() {
   var dropdownOptions = [];
 
   state.trees.forEach(function (tree) {
-    // do stuff - tree.displayName
+    // do stuff - tree.displayname
     var $newOption = $('#cheat option').clone();
 
-    $newOption.val(tree.fileName);
-    $newOption.text(tree.displayName);
+    $newOption.val(tree.filename);
+    $newOption.text(tree.displayname);
     dropdownOptions.push($newOption);
   });
 
@@ -110,7 +110,7 @@ $('select').on('change', function (event) {
   event.preventDefault();
   // get the value of the option selected
   // show the image somehow
-    // make the src attribute be...the fileName
+    // make the src attribute be...the filename
     // iterate thru the array to find
   if (!$(this).val()) {
     $('#cheat img').removeAttr('src');
