@@ -1,0 +1,14 @@
+{
+  "name": "tree-guessing-game",
+  "version": "1.0.0",
+  "description": "the most amazing image id game ever. because trees.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephanie Lingwood",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
