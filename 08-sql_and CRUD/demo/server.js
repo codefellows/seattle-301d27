@@ -9,6 +9,12 @@ const pg = require('pg');
 const connectionString = `postgres://postgres:${process.env.PG_PASSWORD}@127.0.0.1:5432/treegame`;
 console.log(connectionString);
 const client = new pg.Client(connectionString);
+client.connect();
+client.on('error', function(error) {
+  console.log('Postgres connection error:')
+  console.error(error);
+});
+
 const PORT = process.env.PORT || 3000;
 const generateRandomTreeQuote = require('./lib/generateRandomTreeQuote.js');
 
@@ -71,18 +77,18 @@ app.put('/trees/:id', function (req, res) {
     res.send(err);
   })
 });
-//
-// app.delete('/trees/:id', function (req, res) {
-//   console.log(req.params.id)
-//   client.query(`DELETE FROM trees WHERE id=${req.params.id}`)
-//   .then(function (result) {
-//     res.send(`Successfully deleted tree ${req.params.id}`);
-//   })
-//   .catch(function (err) {
-//     console.error(err);
-//     res.send(err);
-//   })
-// });
+
+app.delete('/trees/:id', function (req, res) {
+  console.log(req.params.id)
+  client.query(`DELETE FROM trees WHERE id=${req.params.id}`)
+  .then(function (result) {
+    res.send(`Successfully deleted tree ${req.params.id}`);
+  })
+  .catch(function (err) {
+    console.error(err);
+    res.send(err);
+  })
+});
 
 app.get('/quotes', function (req, res) {
   let quote = generateRandomTreeQuote.getRandomTree();
