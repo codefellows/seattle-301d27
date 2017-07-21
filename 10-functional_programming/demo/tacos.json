@@ -1,0 +1,162 @@
+[
+{
+    "mixin": {
+        "slug": "lettuce_traditional_us",
+        "recipe": "Lettuce (Traditional; US)\n======================\n\nIn a traditional American taco, lettuce serves to add extra crunch and coolness. Favor the bulkier lettuces over leafier fare such as Bibb lettuces or mesclun.\n\n* Iceberg Lettuce (shredded)\n* Romaine Lettuce (shredded; maintain the stalks)\n\ntags: vegetarian, vegan\n",
+        "name": "Lettuce (Traditional; US)",
+        "url": "https://raw.github.com/sinker/tacofancy/master/mixins/lettuce_traditional_us.md"
+    },
+    "condiment": {
+        "slug": "mango_avocado_pico",
+        "recipe": "Mango Avocado Pico de Gallo\n\nIngredients:\n\n1 c. small cubes of mango (about 1 medium to large RIPE mango - not too mushy, though)  \n1 small avocado, cubed\n1/2-1 large jalapeno pepper (1/2 without seeds will give you a nice, mild-medium heat - add from there)  \n1/4 c. chopped cilantro  \n1/4 of a medium red onion, finely chopped  \nJuice of 1 lime  \n2-3 cloves garlic, minced  \nKosher or sea salt to taste  \nDash of chipotle pepper flakes or chipotle tabasco sauce if smoke is your thing\n\nInstructions:\n\nCombine ingredients. Best served immediately, but will keep for a day. Excellent topping for fish or chicken tacos, or served just with chips.\n\ntags: vegetarian, vegan\n",
+        "name": "Mango Avocado Pico",
+        "url": "https://raw.github.com/sinker/tacofancy/master/condiments/mango_avocado_pico.md"
+    },
+    "base_layer": {
+        "slug": "soyrizo",
+        "recipe": "Soyrizo\n=======\n\n* Soyrizo (The El Burrito branded 'SoyRizo' is by far the best vegan option out there)\n* chopped potatoes\n* green peppers\n\nThrow some Soyrizo in a sauce pan with chopped potatoes and green peppers and brown for added bonus.\n\ntags: vegetarian, vegan\n",
+        "name": "Soyrizo",
+        "url": "https://raw.github.com/sinker/tacofancy/master/base_layers/soyrizo.md"
+    },
+    "seasoning": {
+        "slug": "quick_and_dirty_spice_mix",
+        "recipe": "Quick and Dirty Spice Mix\n=========================\n\nI’m not going to make a lot of big assumptions here. You own a skillet of some sort. You have some jars of jankity-ass spices from who-knows-when. You want to eat some tacos within the next, like, fifteen minutes. I got you covered, bachelor(ette).\n\n* 2 Tbsp all-purpose flour\n* 2 1/2 tsp. chili powder\n* 3/4 tsp. onion powder (or 1 1/2 tsp. minced yellow onion)\n* 1 1/4 tsp. salt\n* 1 tsp. paprika\n* 3/4 tsp beef bouillon powder\n* 1/4 tsp. granulated sugar\n* 1/4 tsp. cayenne pepper\n* 1/4 tsp. garlic powder\n* 1 tsp. cumin\n\nPut all this in something with a lid, add 3/4 cup of water, and shake it. Brown a pound of ground beef, then pour the whole situation in there. Stir. Cook it down until it looks like you only put in half a cup of water. You have tacos now.\n\nVegetarians\n-----------\n\nI’ve made this with that soy protein “ground beef” and it does not _surprisingly_ taste like someone put spices on a stack of cheap bar coasters and ran it all through a blender. (Vegetable) oil the skillet when you’re dealing with that stuff, unless you’re looking for excuses to buy a new one.\n\nIf you leave out the bouillon for the sake of doing things vegan-style you’ll probably want to nudge up the salt a little.\n\ntags: vegetarian, vegan\n",
+        "name": "Quick and Dirty Spice Mix",
+        "url": "https://raw.github.com/sinker/tacofancy/master/seasonings/quick_and_dirty_spice_mix.md"
+    },
+    "shell": {
+        "slug": "fresh_corn_tortillas",
+        "recipe": "Fresh Corn Tortillas\n===================\n\nThis is the only way to go. So worth it. Makes roughly 15 tortillas.\n\n* 1 3/4 cups masa harina\n* 1 1/8 cups water\n\n1. In a medium bowl, mix together masa harina and hot water until thoroughly combined. Turn dough onto a clean surface and knead until pliable and smooth. If dough is too sticky, add more masa harina; if it begins to dry out, sprinkle with water. Cover dough tightly with plastic wrap and allow to stand for 30 minutes.\n2. Preheat a cast iron skillet or griddle to medium-high.\n3. Divide dough into 15 equal-size balls. Using a tortilla press (or a rolling pin), press each ball of dough flat between two sheets of wax paper (plastic wrap or a freezer bag cut into halves will also work).\n4. Place tortilla in preheated pan and allow to cook for approximately 30 seconds, or until browned and slightly puffy. Turn tortilla over to brown on second side for approximately 30 seconds more, then transfer to a plate. Repeat process with each ball of dough. Keep tortillas covered with a towel to stay warm and moist (or a low temp oven) until ready to serve.\n\ntags: vegetarian, vegan\n",
+        "name": "Fresh Corn Tortillas",
+        "url": "https://raw.github.com/sinker/tacofancy/master/shells/Fresh_corn_tortillas.md"
+    }
+},
+{
+    "mixin": {
+        "slug": "cheese_traditional_us",
+        "recipe": "Cheese (Traditional; US)\n======================\n\nA major flavor component of a traditional American taco, select a cheese that's firm and sharp.\n\n* Cheddar (shredded)\n* Jack/Pepper Jack (shredded)\n\ntags: vegetarian\n",
+        "name": "Cheese (Traditional; US)",
+        "url": "https://raw.github.com/sinker/tacofancy/master/mixins/cheese_traditional_us.md"
+    },
+    "condiment": {
+        "slug": "european_sour_cream",
+        "recipe": "European Sour Cream\n===================\n\nIt is hard to find sour cream in Europe. This is a suitable alternative using more readily available ingredients.\n\n* 1 cup crème fraîche\n* juice of 1 lime\n* pinch of salt\n\nCombine ingredients. Serve immediately or refrigerate.\n\ntags: vegetarian\n",
+        "name": "European Sour Cream",
+        "url": "https://raw.github.com/sinker/tacofancy/master/condiments/european_sour_cream.md"
+    },
+    "base_layer": {
+        "slug": "garlic_black_beans",
+        "recipe": "Garlic Black Beans\n==================\n\nVegetarian/Vegan\n----------------\n\n* Can of plain black beans\n* 3 - 6 cloves of garlic chopped fine\n* Vegetable oil of your choice\n* Cumin\n* Cayenne or Chipotle pepper (optional)\n* Lemon juice (optional)\n\n1. Heat a tablespoon of olive oil in a saucepan over medium heat. \n2. When olive oil starts to shimmer, add the garlic and let it simmer for about 10 seconds.\n3. Add cumin and pepper (if wanted) and simmer for another 10 seconds.\n4. Pour in the entire can of beans, don't drain or rinse them.\n5. Simmer for about 15 minutes or until the bean broth has thickened to your liking. If the beans will be the main ingredient of your tacos, cook until the beans are just about totally dry. If you're using them in a mixture (like the [Black Bean, Potato, and Onion Tacos](/full_tacos/black_bean_potato_onion_tacos.md) ), let the broth stay a little bit runny.\n6. Add a squeeze or two of lemon juice if you like. \n\ntags: vegetarian, vegan\n",
+        "name": "Garlic Black Beans",
+        "url": "https://raw.github.com/sinker/tacofancy/master/base_layers/garlic_black_beans.md"
+    },
+    "seasoning": {
+        "slug": "zaatar",
+        "recipe": "Zaatar\n======\n\n_A.k.a. za‘tar, za’atar, zattr, etc._\n\nZaatar is a thyme-based Middle Eastern seasoning that adapts well to tacos. It has a pleasantly dry, faintly sour/bitter flavor. It goes well on savory bases like squash and lamb, and combines with other sour seasonings like lemon juice and radish.\n\nThere are many kinds of zaatar, some quite different; this recipe is representative, not definitive.\n\n* 4 units thyme\n* 2 units oregano\n* 2 units sesame seeds\n* 0–1 unit salt\n* 1 unit sumac (to be found at a Lebanese or Syrian market, or at a yuppie grocery; in a pinch, lemon zest can substitute)\n* Other herbs to taste: fennel pollen, marjoram, cumin, etc.\n* Optional: trace olive oil or lemon juice as a binder (but not if you plan to store it)\n\nToast the sesame seeds. Grind all ingredients together using any method, stopping when the mixture is not too fine to pick up by pinching.\n\nMay be added to meat during cooking, or sprinkled over a finshied taco.\n\nThe latest theories have not ruled out the possibility of a zaatar mole.\n\ntags: vegetarian, vegan\n",
+        "name": "Zaatar",
+        "url": "https://raw.github.com/sinker/tacofancy/master/seasonings/zaatar.md"
+    },
+    "shell": {
+        "slug": "naan",
+        "recipe": "naan\n=====================\n\nNaan bread can be purchased or made. It is easier to buy it at a store. \n\nNaan bread is a flatbread that tends to be fluffy and easy to tear apart. \n",
+        "name": "naan",
+        "url": "https://raw.github.com/sinker/tacofancy/master/shells/naan.md"
+    }
+},
+{
+    "mixin": {
+        "slug": "potato_hash",
+        "recipe": "Potato Hash\n===================\n\n* 6 or so small yukon gold poatoes\n* 4 green onion, chopped\n* 1/2 small can of green chiles\n* olive oil\n* coarse salt\n* 1/4t chili powder\n* dash cumin\n* 1/4t garlic powder\n* Nutrional yeast (optional)\n\n\nPeel and dice potatoes, throw in a pan with a 1/4 or so of water, cover and cook on medium-high until potatoes are soft.\nOnce potatoes are soft, lower to medium heat add green onions, chiles, spices and olive oil. Cook until hash-like. BOOM.\n\ntags: vegetarian, vegan\n",
+        "name": "Potato Hash",
+        "url": "https://raw.github.com/sinker/tacofancy/master/mixins/Potato_hash.md"
+    },
+    "condiment": {
+        "slug": "guacamole",
+        "recipe": "Guacamole\n=========\n\nThis is pretty canonical stuff right here.\n\n* 1-2 ripe Hass avocados\n* half a lime\n* a clove or two of chopped garlic\n* some chopped white or yellow onion\n* salt\n* pepper\n* dry cayenne or red chile pepper powder\n* a jalapeño, if that's your thing\n* a small chopped tomato\n* a handful of chopped cilantro\n\nLook, here's how this works: First, you squeeze the lime juice into your nice little ceramic bowl. Then you add the garlic, onion, spices, peppers if you're heating it up, and then **walk away**.\n\nSeriously, walk away for a minute. Crack open a nice Negra Modelo and use a wedge of the other half of the lime in it. Back in your bowl, let the strong stuff marinate in that lime juice for a few minutes. It's cooking.\n\nOK, now that you're back, mix in the rest of the non-avocado ingredients. If you have a pestle, now's it's time to shine. If not, use a small wooden spoon, or failing all else, a fork, you miserable lout. \n\nMash up everything but the avocado. Get it pasty if you can. Squish it all up.\n\nNow you can add your avocado or two, dude. I usually go with about 1.5 avos to condiment tacos or taco-like structures for four humans of varying sizes.\n\nJust in case no one ever taught you how to deal with an avocado correctly, here's a quick lesson:\n* Cut it in half, longways.\n* Smack the pit with the sharp edge of your knife and give it a sensible 90-degree twist.\n* Voila, the avocado pit is on your knife.\n* Dispose of it, unless you're not going to finish all that guac now, in which case, hang onto it and put it in the bowl with the guac before you put it in the fridge.\n* Now that your knife is free, use it to carve long slices into the flesh of your avocado, one half at a time. Cross-hatch that sucker a bit. Don't cut through the flesh.\n* Finally, get your avocado half above your nice bowl full of deliciousness, and use the skin to gently push your nice slices into the spicy soup below. Turn it inside-out, if you must, but know that you can minimize the amount of avocado that gets all over your hands if you do this just right.\n\nTo finish up your guacamole, mash your avocado up a bit and gently mix it into the magical citric-spice-tomato concoction. We're done here.\n\n_Thanks to [The Awl](http://www.theawl.com/2010/02/half-baked-guacamole-by-the-ceviche-method) for limited inspiration regarding the limey and drinky parts._\n\ntags: vegetarian\n",
+        "name": "Guacamole",
+        "url": "https://raw.github.com/sinker/tacofancy/master/condiments/guacamole.md"
+    },
+    "base_layer": {
+        "slug": "slow_cooked_salsa_verde_chicken",
+        "recipe": "Slow-Cooked Salsa Verde Chicken\n===============================\n\nLow-effort, delicious shredded chicken based off [this recipe](http://www.skinnytaste.com/2013/04/easiest-crock-pot-salsa-verde-chicken.html). To minimize prep time, just toss in a jar of storebought salsa verde.\n\n* 2 lbs skinless chicken breasts\n* 2 cups salsa verde\n* 1 tsp minced garlic or 1/4 tsp garlic powder\n* Pinch of Oregano _(Note: I ran out of Oregano, but the recipe still tastes great without it.)_\n* Pinch of Cumin\n* Salt, to taste\n\nAdd chicken to slow cooker and season with garlic, oregano, cumin and salt. Pour salsa verde over everything, cover and cook for two hours on high.\n\nOnce that's ready, shred chicken. Give it another stir to cover everything in sauce, then serve.",
+        "name": "Slow-Cooked Salsa Verde Chicken",
+        "url": "https://raw.github.com/sinker/tacofancy/master/base_layers/slow_cooked_salsa_verde_chicken.md"
+    },
+    "seasoning": {
+        "slug": "homemade_sriracha",
+        "recipe": "## Homemade Sriracha\n\nSure, Huy Fong's “rooster” brand sriracha is great, but wouldn't be nice to make your own? Now you can.\n\nA few tips before starting:\n\n* Don't be a cowboy (or cowgirl)-use gloves. You are going to be handling a lot of peppers and the last thing you want to do is touch your eye or a more _sensitive_ body part.\n* Have good ventilation. Especially on the day you bring your chilis to a boil.\n\n\n### Ingredients\n\n* 1 pound red jalepeño pepper, stemmed, seeded and halved.\n* ½ pound red serrano  pepper, stemmed, seeded and halved.\n* ¼ pound red thai chiles, stemmed, and halved.\n* 6 cloves garlic, peeled.\n* 1 tablespoon kosher salt.\n* 4 tablespoons palm sugar (light brown sugar can be substituted, see notes).\n* ½ cup cane vinegar (or rice wine vinegar, [see notes](https://github.com/sinker/tacofancy/blob/master/seasonings/homemade_sriracha.md#notes)).\n\n### Directions\n\n1. Combine chilis, garlic, salt and sugar in food processor. Pulse to a coarse pureé.\n2. Transfer pureé to glass container. Store at room temperature for one week, stirring daily (see notes).\n3. After one week, transfer pureé to small saucepan, add vinegar and bring to boil.\n4. Reduce heat and simmer for five minutes. Allow to cool to room temperature.\n5. Transfer pureé to food processor and process for two to three minutes.\n6. Strain pureé through fine mesh strainer, using back of spoon or rubber spatula to press solids through strainer.\n7. Transfer finished sauce to glass jars and refrigerate. Can be stored for up to 6 months.\n\n### Notes\n\n* Any combination of red chile peppers will make a fine sriracha. Note thai chilis and serrano are hotter than jalepeños, so experiment with different combinations and find one that works for your taste.\n* If you can't find palm sugar (usually found in most Asian markets) light brown sugar can be substituted. Light brown sugar is slightly sweeter so you may want to start with three tablespoons and adjust after tasting before step 3.\n* Likewise, if you cannot find cane vinegar, rice wine vinegar can be substituted. Seasoned rice wine vinegar, commonly used in preparing sushi rice often has been sweetened, so keep that in mind if adjusting sweetener.\n* Some recipes have suggested the pureé can be thick after the seven day fermentation and water can be used to thin the mixture when processing after the boiling/simmering stage.\n* Finally, and **most importantly** be sure to santize the glass jars/containers you use to ferment and store your sriracha. Just ask your favorite homebrewer what can happen if you do not properly sanitize your glass container before storing foodstuffs in them.\n\ntags: vegetarian, vegan\n",
+        "name": "Homemade Sriracha",
+        "url": "https://raw.github.com/sinker/tacofancy/master/seasonings/homemade_sriracha.md"
+    },
+    "shell": {
+        "slug": "bad_ass_tortillas",
+        "recipe": "bad-ass tortillas\n=====================\n\nIf you are making tacos, don't settle for corporate store bought tortillas. Make your own like a real person!\n\nFirst get a cast iron pan:\n\n![](./pan.jpg)\n\nand then one of these bad-ass tortilla presses:\n\n![](./tortillador.jpg)\n\nBuy your lard from a place like this:\n\n![](./store.jpg)\n\n* 2 cups all purpose flour\n* 1/4 cup lard (cut into lil' pieces)\n* 1 teaspoon kosher salt\n* 2/3 tablespoon oil\n* 1/2 cup water (luke warm)\n\nMix all ingredients together except oil and water. Drizzle oil over mixture and mix with hands. Add water and mix and knead again until doughy. Let chill for about an hour in plastic wrappers.\n\nHeat large cast iron skillet (or something more authentic if you've got it) over medium heat. Cut dough into about 12 pieces that are round. Use a proper tortilla press (or something more authentic if you've got it) to make 'em flat and then put on the skillet. Wait until the transparent parts turn opaque and flip em. Put cooked tortillas in a *dirty* cloth napkin to keep 'em warm. End recipe. Paz, amor, y dinero.\n",
+        "name": "bad-ass tortillas",
+        "url": "https://raw.github.com/sinker/tacofancy/master/shells/homemade_tortillas.md"
+    }
+},
+{
+    "mixin": {
+        "slug": "tomatoes_traditional_us",
+        "recipe": "Tomatoes (Traditional; US)\n======================\n\nAdding a bit of coolness and moisture, tomatoes are a staple ingredient of the American taco. The better the tomato the more flavor they will impart, but even a sub-sandard grocery store tomato has a place in a traditional taco.\n\n* Tomatoes (diced)\n* Cherry Tomatoes (quartered)\n* Grape Tomatoes (sliced)\n\ntags: vegetarian\n",
+        "name": "Tomatoes (Traditional; US)",
+        "url": "https://raw.github.com/sinker/tacofancy/master/mixins/tomatoes_traditional_us.md"
+    },
+    "condiment": {
+        "slug": "simple_salsa_verde",
+        "recipe": "Simple Salsa Verde\n==================\n\nI got this base recipe from a vegan friend. If you can't find one of these peppers, swap in another one!\n\n* 6 Average-sized tomatillos\n* 1 Poblano pepper\n* 1 Serrano pepper\n* 1 Jalapeno pepper\n* 1 Sweet red pepper\n* Juice of 1 or 2 fresh-squeezed limes (to taste)\n* Pinch or two kosher salt (to taste)\n\nYou're in charge of the heat here. For a milder salsa, remove all the ribs and seeds inside the peppers. For medium, leave in a few ribs, and for hot, go nuts. Rough chop the peppers and tomatillos, then throw into a blender or food processor with salt and lime juice. Pulse to desired consistency.\n\nAs with most salsas, this will taste better if you let it sit in the fridge for a few hours before eating. It's great on chips or drizzled over steak or pork tacos.\n\ntags: vegetarian, vegan\n",
+        "name": "Simple Salsa Verde",
+        "url": "https://raw.github.com/sinker/tacofancy/master/condiments/simple_salsa_verde.md"
+    },
+    "base_layer": {
+        "slug": "roasted_butternut_squash",
+        "recipe": "Roasted Butternut Squash\n========================\n\nVegan\n-----\n\nThe great thing about roasting butternut squash is that you just throw the whole squash into the oven, forget about it for about an hour, and the cooking is all self-contained - no prep (no need to chop up an uncooked gourd), no other ingredients and no messy dishes afterward.\n\n__Ingredients__\n\n* Whole Butternut Squash\n* Chili powder (optional)\n\n__Directions__\n\n1. Roast a whole butternut squash in the oven at 400 degrees for 30 minutes to an hour until it is nice and soft.\n2. Cut open the squash, scoop out the seeds and discard the peel. Cut into bite-sized pieces and the squash is ready to go. No seasoning is necessary, but the sweet buttery flavor of the squash is pretty tasty with chili powder.\n\ntags: vegetarian, vegan\n",
+        "name": "Roasted Butternut Squash",
+        "url": "https://raw.github.com/sinker/tacofancy/master/base_layers/butternut_squash.md"
+    },
+    "seasoning": {
+        "slug": "kathys_taco_and_fajita_seasoning",
+        "recipe": "Kathy's Taco and Fajita Seasoning\n=================================\n\nMy cousin Kathy sent me this recipe for my birthday:\n\nAmazing taco/fajita seasoning – Use with any protein.  It's a great recipe to quadruple so you have it ready for immediate taco needs. When making a big batch, use less salt.\n\nCombine:\n\n2 tsp cumin\n1 tsp EACH: paprika, onion powder, dried oregano, and kosher salt\n½ tsp EACH: ground coriander, garlic powder and black pepper\n¼ tsp EACH: red pepper flakes, ground ginger and cayenne pepper\n\ntags: vegetarian, vegan\n",
+        "name": "Kathy's Taco and Fajita Seasoning",
+        "url": "https://raw.github.com/sinker/tacofancy/master/seasonings/taco_and_fajita.md"
+    },
+    "shell": {
+        "slug": "bad_ass_tortillas",
+        "recipe": "bad-ass tortillas\n=====================\n\nIf you are making tacos, don't settle for corporate store bought tortillas. Make your own like a real person!\n\nFirst get a cast iron pan:\n\n![](./pan.jpg)\n\nand then one of these bad-ass tortilla presses:\n\n![](./tortillador.jpg)\n\nBuy your lard from a place like this:\n\n![](./store.jpg)\n\n* 2 cups all purpose flour\n* 1/4 cup lard (cut into lil' pieces)\n* 1 teaspoon kosher salt\n* 2/3 tablespoon oil\n* 1/2 cup water (luke warm)\n\nMix all ingredients together except oil and water. Drizzle oil over mixture and mix with hands. Add water and mix and knead again until doughy. Let chill for about an hour in plastic wrappers.\n\nHeat large cast iron skillet (or something more authentic if you've got it) over medium heat. Cut dough into about 12 pieces that are round. Use a proper tortilla press (or something more authentic if you've got it) to make 'em flat and then put on the skillet. Wait until the transparent parts turn opaque and flip em. Put cooked tortillas in a *dirty* cloth napkin to keep 'em warm. End recipe. Paz, amor, y dinero.\n",
+        "name": "bad-ass tortillas",
+        "url": "https://raw.github.com/sinker/tacofancy/master/shells/homemade_tortillas.md"
+    }
+},
+{
+    "mixin": {
+        "slug": "lettuce_traditional_us",
+        "recipe": "Lettuce (Traditional; US)\n======================\n\nIn a traditional American taco, lettuce serves to add extra crunch and coolness. Favor the bulkier lettuces over leafier fare such as Bibb lettuces or mesclun.\n\n* Iceberg Lettuce (shredded)\n* Romaine Lettuce (shredded; maintain the stalks)\n\ntags: vegetarian, vegan\n",
+        "name": "Lettuce (Traditional; US)",
+        "url": "https://raw.github.com/sinker/tacofancy/master/mixins/lettuce_traditional_us.md"
+    },
+    "condiment": {
+        "slug": "onions_and_cilantro",
+        "recipe": "Onions and Cilantro\n=============\n* 1 white onion, peeled.\n* Bunch of cilantro, long bottom stems removed (stems between leaves are fine).\n* Juice of one lime.\n\n1. Dice white onion into 0.50 inch dice.\n2. Roughly chop cilantro.\n3. Add onion and cilantro to a bowl with the lime juice and mix thoroughly.\n4. Store in an airtight container for up to a week.",
+        "name": "Onions and Cilantro",
+        "url": "https://raw.github.com/sinker/tacofancy/master/condiments/onions_and_cilantro.md"
+    },
+    "base_layer": {
+        "slug": "baja_beer_battered_fish",
+        "recipe": "Baja Beer Battered Fish\n========================\n\nThis is the beer battered fish for [Baja fish tacos](../full_tacos/baja_fish_tacos.md).\n\nBatter\n-------\n\n* 1/2 c flour\n* 1/4 c baking powder\n* 1 egg\n* 1/2 c beer (Tecate!)\n* 1 tsp salt\n* 1 tsp chili powder (paprika, salt, garlic salt)\n* 2 tsp parsley\n\nBeat the eggs and fold all batter ingredients until smooth.\nAdd flour to make it thicker or add beer to make it thinner.\nIf you have time let the batter chill for a couple hours.\n\nFish\n------\n\n* 1 lb. cod fillet, grouper, or similar white fish, the fresher the better\n\n* Cut fish into small chunks.\n* Fill a pan with oil and heat until approx. 375 F.\n* Fill a bowl with about a cup of flour and keep it next to the batter bowl.\n* Dip a fish piece into flour then into the batter.\n* Fry for 4-5 minutes, turning halfway through. Drain on a paper towel.",
+        "name": "Baja Beer Battered Fish",
+        "url": "https://raw.github.com/sinker/tacofancy/master/base_layers/baja_beer_batter.md"
+    },
+    "seasoning": {
+        "slug": "kathys_taco_and_fajita_seasoning",
+        "recipe": "Kathy's Taco and Fajita Seasoning\n=================================\n\nMy cousin Kathy sent me this recipe for my birthday:\n\nAmazing taco/fajita seasoning – Use with any protein.  It's a great recipe to quadruple so you have it ready for immediate taco needs. When making a big batch, use less salt.\n\nCombine:\n\n2 tsp cumin\n1 tsp EACH: paprika, onion powder, dried oregano, and kosher salt\n½ tsp EACH: ground coriander, garlic powder and black pepper\n¼ tsp EACH: red pepper flakes, ground ginger and cayenne pepper\n\ntags: vegetarian, vegan\n",
+        "name": "Kathy's Taco and Fajita Seasoning",
+        "url": "https://raw.github.com/sinker/tacofancy/master/seasonings/taco_and_fajita.md"
+    },
+    "shell": {
+        "slug": "naan",
+        "recipe": "naan\n=====================\n\nNaan bread can be purchased or made. It is easier to buy it at a store. \n\nNaan bread is a flatbread that tends to be fluffy and easy to tear apart. \n",
+        "name": "naan",
+        "url": "https://raw.github.com/sinker/tacofancy/master/shells/naan.md"
+    }
+}
+]
