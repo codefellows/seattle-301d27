@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>pagejs demo</title>
+  </head>
+  <script type="text/x-handlebars-template">
+    <ul>
+      <li>Author: {{author}}</li>
+      <li>Title: {{title}}</li>
+      <li>Body: {{body}}</li>
+    </ul>
+  </script>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/new">New</a></li>
+          <li><a href="/notes">Notes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="tab-content" id="welcome">
+      <h2>Welcome to the site!</h2>
+    </section>
+
+    <section class="tab-content" id="form">
+      <form id="note-form">
+        <input type="text" id="author" placeholder="Who are you">
+        <input type="text" id="title" placeholder="What are you calling the thing">
+        <input type="text" id="body" placeholder="Tell me what you need to Note">
+        <button type="submit">Enter</button>
+      </form>
+    </section>
+
+    <section class="tab-content" id="notes">
+      <div id="note-div"></div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+    <script src="../view/home-view.js"></script>
+    <script src="../view/form-view.js"></script>
+    <script src="../controller/note-route.js"></script>
+    <script src="../model/note.js"></script>
+  </body>
+</html>
