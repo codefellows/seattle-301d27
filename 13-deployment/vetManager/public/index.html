@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vet Manager</title>
+    <script type="text/x-handlebars-template" id="template">
+      {{#each records}}
+        <h3>{{this.name}}</h3>
+        <p>{{this.species}}</p>
+        <p>Owner: {{this.firstname}} {{this.lastname}}</p>
+      {{/each}}
+    </script>
+  </head>
+  <body>
+
+    <section id="addPet">
+      <h2>Add a Pet</h2>
+      <form id="addPetRecord" action="#">
+        <fieldset>
+          <legend>Add New Pet</legend>
+          <label>
+            Pet Name
+            <input type="text" id="petName" placeholder="Pet Name">
+          </label>
+          <label>
+            Species
+            <input type="text" id="species" placeholder="Species">
+          </label>
+          <label>
+            Owner First Name
+            <input type="text" id="firstName" placeholder="First Name">
+          </label>
+          <label>
+            Owner Last Name
+            <input type="text" id="lastName" placeholder="Last Name">
+          </label>
+        </fieldset>
+        <button type="submit" id="submitPet">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>List of Pets</h2>
+      <div id="petList"></div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script src='scripts/app.js'></script>
+  </body>
+</html>

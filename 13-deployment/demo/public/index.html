@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Amazing GitHub API Demo</title>
+    <script type="text/x-handlebars-template" id="repoTemplate">
+      {{#each repos}}
+        <li>
+          <h3>{{this.name}}</h3>
+          <a href="{{this.url}}">{{this.url}}</a>
+        </li>
+      {{/each}}
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>My Amazing GitHub API Demo</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/repos">Repos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h2>The Home Page</h2>
+      </section>
+      <section id="repos">
+        <h2>The Repos Page</h2>
+        <ul id="repoList"></ul>
+      </section>
+    </main>
+    <footer>
+      <h3> Here is my footer</h3>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+    <script src="scripts/models/repoModels.js"></script>
+    <script src="scripts/views/reposView.js"></script>
+    <script src="scripts/views/homeView.js"></script>
+    <script src="scripts/controllers/reposController.js"></script>
+    <script src="scripts/controllers/homeController.js"></script>
+    <script src="scripts/controllers/routes.js"></script>
+  </body>
+</html>
